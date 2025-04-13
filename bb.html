@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Book Cover</title>
+    <link rel="stylesheet" href="style8.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload your Books</h1>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+
+            <label for="title">Book Title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author" required>
+
+            <label for="total_pages">Total Pages:</label>
+            <input type="number" id="total_pages" name="total_pages" required>
+
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" name="startDate" required>
+
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate" name="endDate" required>
+            
+            <label for="cover">Book Cover:</label>
+            <input type="file" id="cover" name="cover" accept="image/*" required>
+            
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</body>
+</html>

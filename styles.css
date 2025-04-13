@@ -1,0 +1,54 @@
+header{
+    padding: 20px;
+    color: white;
+    background: black;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: white;
+}
+
+
+section{
+    color: #535151;
+    display: flex;
+    flex-direction: row;
+    background: white;
+}
+
+div{
+    background: red;
+    margin: auto;
+    width: 100px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    margin: 10px;
+}
+
+form{
+    position: fixed;
+    right: 0;
+    margin: 0 10px;
+}
+
+footer{
+    color: white;
+    background: black;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

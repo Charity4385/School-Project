@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif;
+    background-color: #4CAF50;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+  }
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+form {
+  width: 300px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the form */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+input[type="text"],
+input[type="radio"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styling for the book list */
+#bookList {
+  list-style: none;
+  padding: 0;
+}
+
+#bookList li {
+  margin-bottom: 10px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #312f2f;
+    text-align: center;
+    padding: 20px; 
+    color: white;
+}

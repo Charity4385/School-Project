@@ -1,0 +1,226 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.container {
+    max-width: 1200px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.book-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    position: relative; /* For positioning progress bar */
+}
+
+.book-item img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.book-item h3 {
+    color: #34495e;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.book-item p {
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.book-item .btn {
+    margin: 5px;
+}
+
+.reading-history {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.reading-history h4 {
+    color: #34495e;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.reading-history ul {
+    list-style: none;
+    padding: 0;
+}
+
+.reading-history li {
+    padding: 8px 12px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reading-history li:last-child {
+    border-bottom: none;
+}
+
+.reading-history .btn-sm {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #34495e;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #212529;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    border-color: #138496;
+}
+
+/* Progress Bar Styles */
+.progress-container {
+    width: 100%;
+    height: 20px;
+    background-color: #e0e0de;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    height: 20px;
+    border-radius: 10px;
+    background-color: #4caf50; /* Green color */
+    width: 0%; /* Initial width */
+    transition: width 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .book-item {
+        padding: 15px;
+    }
+
+    .book-item img {
+        max-width: 100px;
+    }
+}
+
+.progress-percentage {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #312f2f;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
